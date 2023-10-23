@@ -134,3 +134,67 @@ button{
     line-height: 35px; /* 145.833% */
     text-decoration-line: underline;
 }
+/* 
+ */
+#form{
+    position: relative;
+    justify-content: center;
+}
+.formpic{
+    width: 735px;
+    height: 260px;
+    justify-content: center;
+    margin-left: 26%;
+    padding-top: 2%;
+}
+.deal{
+    color: #272727;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    position: absolute;
+    top: 30%;
+    left: 45%;
+}
+#cupon{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    position: absolute;
+    bottom: 52%;
+    left: 47%;
+}
+.email{
+    position: absolute;
+    bottom: 30%;
+    left: 37%;
+    width: 300px;
+    border-radius: 6px;
+    background: #FFF;
+    display: flex;
+    gap: 1%;
+    height: 35px;
+}
+#placeholder{
+    color: rgba(39, 39, 39, 0.60);
+    /* text-align: center; */
+    font-family: Lato;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    bottom: 7%;
+    padding: 5px;
+}
+.subscribe{
+    position: absolute;
+    left: 58%;
+    bottom: 30%;
+}
