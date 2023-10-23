@@ -49,6 +49,10 @@ button{
     padding-top: 5%;
     position: relative;
 }
+.card{
+    justify-content: center;
+    
+}
 .feature{
     color: #272727;
     text-align: center;
@@ -58,7 +62,8 @@ button{
     font-weight: 800;
     line-height: normal;
     padding-top: 70px;
-    position: relative;
+    justify-content: center;
+    
 }
 .text3{
     color: rgba(39, 39, 39, 0.60);
@@ -68,5 +73,64 @@ button{
     font-style: normal;
     font-weight: 400;
     line-height: 15px; /* 166.667% */
+    justify-content: center;
+    
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    gap: 1.4%;
     position: relative;
+    justify-content: center;
+    padding-top: 3%;
+}
+.card1{
+    width: 230px;
+    height: 280px;
+    background-color: rgba(167, 33, 98, 0.15);
+    border-radius: 300px 300px 0px 0px;
+}
+#pngwing6{
+    width: 200px;
+    height: 280px;
+    padding: 30% 15% 0% 15%;
+    
+}
+.card2{
+    width: 230px;
+    height: 280px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+}
+#pngwing5{
+    width: 270px;
+    height: 270px;
+    padding: 18% 10% 10% 15%;
+}
+.card3{
+    width: 230px;
+    height: 280px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+}
+#pngwing7{
+    width: 200px;
+    height: 280px;
+    padding: 25% 15% 0% 15%;
+}
+.flexlink{
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    position: relative;
+    justify-content: center;
+    padding-top: .1%;
+    color: #272727;
+    
+    font-family: Lato;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px; /* 145.833% */
+    text-decoration-line: underline;
 }
